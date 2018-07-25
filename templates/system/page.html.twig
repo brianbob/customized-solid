@@ -118,7 +118,8 @@
 
 {# Main #}
 {% block main %}
-  <div id="main" role="main" class="main-container {{ container }} js-quickedit-main-content">
+{{page.before_content}} 
+ <div id="main" role="main" class="main-container {{ container }} js-quickedit-main-content">
     <div class="row">
       {# Content #}
       {%
@@ -166,7 +167,7 @@
     </div>
   </div>
 {% endblock %}
-
+{{page.after_content}}
 {% if page.footer|render|striptags('div,p,table,span,a')|trim is not empty %}
   {% block footer %}
     <footer id="footer" class="footer" role="contentinfo">
