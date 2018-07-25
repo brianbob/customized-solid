@@ -2733,3 +2733,16 @@ img {
   clip: auto; }
 
 /*# sourceMappingURL=style.css.map */
+
+/* customizations */
+
+div#banner {
+  margin-top: 0px;
+  padding-top: 20px;
+  background: #2ecc71;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 10px;
+}
+
+/* end customizations */
