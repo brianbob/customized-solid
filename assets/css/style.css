@@ -2738,11 +2738,50 @@ img {
 
 div#banner {
   margin-top: 0px;
+  margin-bottom: 0px;
   padding-top: 20px;
   background: #2ecc71;
   padding-left: 5%;
   padding-right: 5%;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
+div.region-before-content {
+  background: #9b59b6;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: white;
+}
+
+div.region-before-content p {
+  color: white;
+}
+
+div.region-before-content h4.block-title {
+  border-bottom: 2px solid white;
+}
+
+div.region-header img {
+  border-radius: 50%;
+  position: relative;
+  bottom: 15px;
+}
+
+div.region-header p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#header div.region-header h1.page-header {
+  position: relative;
+  left: 16%;
+  top: -6px;
+}
+
+div.region-header a {
+  color: #384452;
+  font-weight: bold;
+  font-style: italic;
+
+}
 /* end customizations */
