@@ -109,16 +109,22 @@
 
 {# Banner #}
 {% if page.banner|render|striptags('div,p,table,span,a')|trim is not empty %}
-  <div id="banner">
-    {% block banner %}
-      {{ page.banner }}
-    {% endblock %}
+  <div class="full-width green">
+    <div id="banner" class="container">
+      {% block banner %}
+        {{ page.banner }}
+      {% endblock %}
+    </div>
   </div>
 {% endif %}
 
 {# Main #}
 {% block main %}
-{{page.before_content}} 
+  <div class="full-width orange">
+    <div class="{{ container }} before-content">
+      {{page.before_content}}
+    </div>
+  </div>
  <div id="main" role="main" class="main-container {{ container }} js-quickedit-main-content">
     <div class="row">
       {# Content #}
@@ -167,7 +173,13 @@
     </div>
   </div>
 {% endblock %}
-{{page.after_content}}
+
+<div class="full-width purple">
+  <div class="{{ container }} after-content">
+    {{page.after_content}}
+  </div>
+</div>
+
 {% if page.footer|render|striptags('div,p,table,span,a')|trim is not empty %}
   {% block footer %}
     <footer id="footer" class="footer" role="contentinfo">

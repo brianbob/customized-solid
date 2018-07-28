@@ -2736,24 +2736,47 @@ img {
 
 /* customizations */
 
-div#banner {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 20px;
-  background: #2ecc71;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 10px;
+.path-frontpage #main {
+  background: #2980b9;
+  width: 100%;
+  padding-top: 0px;
 }
 
-div.region-before-content {
-  background: #9b59b6;
-  padding-left: 5%;
-  padding-right: 5%;
+.path-frontpage #main p {
   color: white;
 }
 
-div.region-before-content p {
+
+.full-width {
+  width: 100%;
+}
+
+.green {
+  background: #2ecc71;
+}
+
+.orange {
+  background: #e67e22;
+}
+
+.purple {
+  background: #9b59b6;
+}
+
+#banner {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.region-header img {
+  max-width: 1000px;
+  width: 186px;
+}
+
+div.region-before-content p,
+div.region-before-content h4  {
   color: white;
 }
 
@@ -2761,10 +2784,53 @@ div.region-before-content h4.block-title {
   border-bottom: 2px solid white;
 }
 
-div.region-header img {
+div.region-banner img {
+  height: 300px;
+  width: 300px;
+  max-width: 300px;
   border-radius: 50%;
-  position: relative;
-  bottom: 15px;
+}
+
+#banner div.region-banner p {
+  margin-right: 50px;
+}
+
+#banner div.region-banner .block-title,
+div.before-content div.region-before-content .block-title,
+#main .block-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  border-bottom: 0;
+  font-size: 32px;
+  /* text-align: center; */
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+.region-before-content blockquote {
+  border: 0px;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: #f39c12;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.region-before-content blockquote p {
+  font-style: italic;
+  font-style: italic;
+  padding: 8px;
+  margin: 0;
+}
+
+.region-before-content blockquote cite {
+  padding: 5px;
+}
+
+blockquote footer:before {
+  content: '';
 }
 
 div.region-header p {
@@ -2774,8 +2840,10 @@ div.region-header p {
 
 #header div.region-header h1.page-header {
   position: relative;
-  left: 16%;
-  top: -6px;
+  left: 20%;
+  top: 16px;
+  font-size: 36px;
+  color: #384452;
 }
 
 div.region-header a {
@@ -2783,5 +2851,9 @@ div.region-header a {
   font-weight: bold;
   font-style: italic;
 
+}
+
+.about-me-container img {
+  float: right;
 }
 /* end customizations */
