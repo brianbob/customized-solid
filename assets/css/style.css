@@ -2770,11 +2770,6 @@ img {
   padding-bottom: 15px;
 }
 
-.region-header img {
-  max-width: 1000px;
-  width: 186px;
-}
-
 div.region-before-content p,
 div.region-before-content h4  {
   color: white;
@@ -2789,10 +2784,6 @@ div.region-banner img {
   width: 300px;
   max-width: 300px;
   border-radius: 50%;
-}
-
-#banner div.region-banner p {
-  margin-right: 50px;
 }
 
 #banner div.region-banner .block-title,
@@ -2856,4 +2847,49 @@ div.region-header a {
 .about-me-container img {
   float: right;
 }
+
+.flex {
+  display: flex;
+}
+
+.flex div {
+  padding: 15px;
+}
+
+div.header-container img {
+  max-width: 1000px;
+  width: 186px;
+  height: 210px;
+}
+
+div.header-container .text-container {
+  margin: auto;
+}
+
+/* mobile */
+@media screen and (max-width: 480px) {
+  .flex {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .flex div {
+    margin: auto;
+    text-align: justify;
+  }
+
+  .flex .image-container {
+    margin-top: 25px;
+  }
+
+  .flex.about-me-container div.image-container {
+    order: 1;
+  }
+
+  .flex.about-me-container div.text-container {
+    order: 2;
+  }
+}
+
+
 /* end customizations */
