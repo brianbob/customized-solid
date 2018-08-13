@@ -2891,5 +2891,18 @@ div.header-container .text-container {
   }
 }
 
+.facebook-chart-container {
+  background-color: #384452;
+  width: 45%;
+  border-radius: 3px;
+}
+
+.facebook-chart-container .title {
+  position: relative;
+  top: 27px;
+  text-align: center;
+  font-size: 18px;
+  color: #bfc9d3;
+}
 
 /* end customizations */
