@@ -2902,7 +2902,22 @@ div.header-container .text-container {
   top: 27px;
   text-align: center;
   font-size: 18px;
-  color: #bfc9d3;
+  color: white;
 }
 
+#block-socialmediastats {
+  clear: both;
+  width: 100%;
+}
+
+.region-content section {
+  width: 45%;
+  float: left;
+}
+
+.region-content section .facebook-chart-container {
+  width: 80%;
+}
 /* end customizations */
+
+
