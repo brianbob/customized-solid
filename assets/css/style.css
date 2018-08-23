@@ -2736,12 +2736,6 @@ img {
 
 /* customizations */
 
-.path-frontpage #main {
-  background: #2980b9;
-  width: 100%;
-  padding-top: 0px;
-}
-
 .path-frontpage #main p {
   color: white;
 }
@@ -2761,6 +2755,15 @@ img {
 
 .purple {
   background: #9b59b6;
+  color: white;
+}
+
+.purple p {
+  color: white;
+}
+
+.blue {
+  background: #2980b9;
 }
 
 #banner {
@@ -2788,7 +2791,7 @@ div.region-banner img {
 
 #banner div.region-banner .block-title,
 div.before-content div.region-before-content .block-title,
-#main .block-title {
+div.region-after-content .block-title {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   color: white;
@@ -2910,13 +2913,13 @@ div.header-container .text-container {
   width: 100%;
 }
 
-.region-content section {
+.region-before-content section {
   width: 45%;
   float: left;
 }
 
-.region-content section .facebook-chart-container {
-  width: 80%;
+.region-before-content section .facebook-chart-container {
+  width: 95%;
 }
 /* end customizations */
 
