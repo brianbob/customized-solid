@@ -65,6 +65,12 @@ main {
 figure {
   margin: 1em 40px; }
 
+.about-me-container a {
+  color: #384452;
+  font-weight: bold;
+  font-style: italic;
+}
+
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
