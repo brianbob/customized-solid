@@ -2740,7 +2740,29 @@ img {
 
 /*# sourceMappingURL=style.css.map */
 
-/* customizations */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* customizations by Brian Bridge for brianjbridge.com */
 
 .path-frontpage #main p {
   color: white;
@@ -2795,9 +2817,11 @@ div.region-banner img {
   border-radius: 50%;
 }
 
+/* Format the block titles */
 #banner div.region-banner .block-title,
 div.before-content div.region-before-content .block-title,
-div.region-after-content .block-title {
+div.region-after-content .block-title,
+#block-webform--2 .block-title {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   color: white;
@@ -2838,7 +2862,7 @@ div.region-header p {
   margin-right: 5%;
 }
 
-#header div.region-header h1.page-header {
+.path-frontpage #header div.region-header h1.page-header {
   position: relative;
   left: 20%;
   top: 16px;
@@ -2929,51 +2953,102 @@ div.header-container .text-container {
 }
 
 
-    .page-node-type-movie-review #header div.region-header h1.page-header  {
-      position: inherit;
-      left: 0;
-    }
+div.region-header ol.breadcrumb {
+  position: relative;
+  top: 20px;
+}
 
-    .page-node-type-movie-review div.region-header ol.breadcrumb {
-      position: relative;
-      top: 20px;
-    }
+.page-node-type-movie-review div#main {
+  padding-top: 20px;
+}
 
-    .page-node-type-movie-review div#main {
-      padding-top: 20px;
-    }
+.page-node-type-movie-review div.author {
+  font-style: italic;
+  padding-bottom: 20px;
+}
 
-    .page-node-type-movie-review div.author {
-      font-style: italic;
-      padding-bottom: 20px;
-    }
+.page-node-type-movie-review .field--name-field-story-rating {
+  clear: both;
+}
 
-    .page-node-type-movie-review .field--name-field-story-rating {
-      clear: both;
-    }
+.page-node-type-movie-review .field--name-field-poster {
+  float: left;
+}
 
-    .page-node-type-movie-review .field--name-field-poster {
-      float: left;
-    }
+.page-node-type-movie-review .field--label-inline {
+  padding-top: 30px;
+  font-size: 21px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
 
-    .page-node-type-movie-review .field--label-inline {
-      padding-top: 30px;
-      font-size: 21px;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 10px;
-    }
+.page-node-type-movie-review .field--name-field-rating {
+  font-size: 30px;
+  padding-left: 171px;
+  border-bottom: 0;
+  padding-bottom: 0;
+}
 
-    .page-node-type-movie-review .field--name-field-rating {
-      font-size: 30px;
-      padding-left: 171px;
-      border-bottom: 0;
-      padding-bottom: 0;
-    }
+.page-node-type-movie-review .field--name-field-overview {
+  padding-left: 171px;
+}
 
-    .page-node-type-movie-review .field--name-field-overview {
-      padding-left: 171px;
-    }
+#block-webform--2 form {
+  max-width: 75%;
+}
 
+.path-frontpage section.block-views-blockmovies-block-1 table > tbody > tr:nth-of-type(odd) {
+  background-color: transparent;
+}
+
+.path-frontpage section.block-views-blockmovies-block-1 table > thead > tr > th {
+
+  font-style: italic;
+}
+
+.path-frontpage section.block-views-blockmovies-block-1 .table > tbody > tr > td {
+  vertical-align: middle;
+}
+
+.path-frontpage section.block-views-blockmovies-block-1 .table > tbody > tr > td a {
+  color: ghostwhite;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+
+  .path-movies .form-item {
+    max-width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .path-movies .form-item-field-year-released-value {
+    max-width: 10%;
+  }
+
+  .path-movies .form-item-field-year-released-value input {
+    max-width: 100%;
+  }
+
+  .path-movies #edit-actions {
+    position: relative;
+    top: 8px;
+    left: 9px;
+  }
+
+  .path-movies .table > tbody > tr > td {
+    vertical-align: middle;
+  }
+
+  .path-movies .form-item label {
+    display: block;
+  }
+
+
+}
 /* end customizations */
 
 
