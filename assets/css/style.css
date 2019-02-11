@@ -2996,7 +2996,7 @@ div.region-header ol.breadcrumb {
 }
 
 .page-node-type-movie-review .field--name-field-overview {
-  padding-left: 171px;
+   padding-left: 171px;
 }
 
 #block-webform--2 form {
@@ -3021,6 +3021,10 @@ div.region-header ol.breadcrumb {
   font-weight: bold;
   font-style: italic;
   text-decoration: underline;
+}
+
+.path-frontpage ol.breadcrumb {
+  display: none;
 }
 
 @media (min-width: 768px) {
