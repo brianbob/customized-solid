@@ -2982,6 +2982,12 @@ div.region-header ol.breadcrumb {
   padding-bottom: 10px;
 }
 
+.path-movies table a {
+  color: #384452;
+  font-weight: bold;
+  font-style: italic;
+}
+
 .page-node-type-movie-review .field--name-field-rating {
   font-size: 30px;
   padding-left: 171px;
@@ -3018,6 +3024,12 @@ div.region-header ol.breadcrumb {
 }
 
 @media (min-width: 768px) {
+
+  .page-node-type-movie-review .field--name-field-expectations-going-in.field--label-inline {
+    padding-left: 171px;
+    border-bottom: 0px;
+    font-size: 19px;
+  }
 
   .path-movies .form-item {
     max-width: 30%;
