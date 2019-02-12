@@ -2771,6 +2771,7 @@ img {
 
 .full-width {
   width: 100%;
+  padding-bottom: 30px;
 }
 
 .green {
@@ -2892,7 +2893,6 @@ div.region-header a {
 div.header-container img {
   max-width: 1000px;
   width: 186px;
-  height: 210px;
 }
 
 div.header-container .text-container {
