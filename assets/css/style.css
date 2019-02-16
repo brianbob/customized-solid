@@ -2999,6 +2999,12 @@ div.region-header ol.breadcrumb {
    padding-left: 171px;
 }
 
+.page-node-type-movie-review .content a {
+  color: #384452;
+  font-weight: bold;
+  font-style: italic;
+}
+
 #block-webform--2 form {
   max-width: 75%;
 }
@@ -3064,6 +3070,12 @@ div.region-header ol.breadcrumb {
   }
 
 
+}
+
+@media (max-width: 768px) {
+  .views-field.views-field-field-poster {
+    margin-left: 5px;
+  }
 }
 /* end customizations */
 
